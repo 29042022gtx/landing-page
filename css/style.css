@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+   font-family: Roboto;
+   src: url(../font/Roboto-BoldItalic.ttf);
+   font-weight: bold;
+   font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+   font-family: Roboto;
+   src: url(../font/Roboto-BlackItalic.ttf);
+   font-weight: 900;
+   font-style: italic;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+   font-family: Roboto;
+   src: url(../font/Roboto-LightItalic.ttf);
+   font-weight: 300;
+   font-style: italic;
+}
+
+:root {
+    --black: #222;
+    --dark: #444;
+    --gray: #666;
+    --light: #888;
+    --bone: #aaa;
+    --smoke: #ccc;
+    --snow: #eee;
+    --darkbackground: #1f2937;
+    --foreground1: #f9faf8;
+    --foreground2: #e5e7eb;
+    --placeholder: #89a;
+    --btn: #3382f6;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+
+a {
+    color: inherit;
+}
+
+html {
+    font-family: Roboto, Noto-sans, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.intro {
+    background-color: var(--darkbackground);
+    padding: 16px 32px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.intro > div {
+    width: 100%;
+    max-width: 990px;
+    margin: auto;
+}
+
+.intro .header {
+    color: var(--foreground1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro .header .header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.intro .header .links {
+    color: var(--foreground2);
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+.intro .info {
+    display: flex;
+    gap: 48px;
+    padding: 128px 0;
+}
+
+.intro .info > * {
+    flex: 1;
+}
+
+.intro .info .content .hero {
+    color: var(--foreground1);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.intro .info .content .second {
+    color: var(--foreground2);
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.intro .info .content .btn-wrapper .btn {
+    color: var(--foreground1);
+    background-color: var(--btn);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 8px 0;
+    padding: 8px 32px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.intro .info .picture {
+    color: var(--foreground2);
+    background-color: var(--placeholder);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
