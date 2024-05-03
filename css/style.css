@@ -217,4 +217,36 @@ body {
     font-weight: bold;
     text-align: right;
 }
+.call {
+    color: var(--cloud);
+    background-color: var(--blue);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1080px;
+    margin: 96px auto;
+    padding: 54px 64px;
+    border-radius: 8px;
+}
+
+.call .action .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call .action .content {
+    color: var(--snow);
+}
+
+.call .btn-wrapper .btn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: inherit;
+    text-wrap: nowrap;
+    padding: 8px 36px;
+    border: 3px solid var(--cloud);
+    border-radius: 8px;
+
+}
 
