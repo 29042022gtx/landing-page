@@ -180,6 +180,7 @@ body {
 }
 
 .illus .cards .card {
+    color: var(--gray);
     width: 180px;
     text-align: center;
 }
@@ -192,12 +193,28 @@ body {
 }
 
 
+.quote {
+    color: var(--nightblue);
+    background-color: var(--lightgray);
+    padding: 128px 16px 96px;
+}
 
+.quote > div {
+    width: 100%;
+    max-width: 799px;
+    margin: auto;
+}
 
+.quote .content {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 16px;
+}
 
-
-
-
-
-
+.quote .author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
 
