@@ -250,3 +250,10 @@ body {
 
 }
 
+footer {
+    color: var(--lightgray);
+    background-color: var(--nightblue);
+    text-align: center;
+    padding: 48px;
+}
+
